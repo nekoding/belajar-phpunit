@@ -1,0 +1,23 @@
+{
+    "name": "nekoding/belajar-phpunit-test",
+    "description": "Belajar menulis PHPUnit",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Enggar Tivandi",
+            "email": "64598048+nekoding@users.noreply.github.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "9"
+    },
+    "scripts": {
+        "test": ".\\vendor\\bin\\phpunit tests"
+    },
+    "autoload": {
+        "psr-0": {
+            "Nekoding\\App\\": "src/"
+        }
+    }
+}
